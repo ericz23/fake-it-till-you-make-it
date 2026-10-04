@@ -1,0 +1,40 @@
+{
+  "method": "Paced agent browser walkthrough; not a human playtest",
+  "url": "https://fake-it-till-you-make-it.kachow-1.chatgpt.site",
+  "sourceCommit": "f6a4e3af469b422ea7258068a02d0edd6550e7cf",
+  "startedAt": "2026-10-04T06:29:49.945Z",
+  "endedAt": "2026-10-04T06:48:06.727Z",
+  "elapsedMilliseconds": 1096771,
+  "dialogueWords": 2544,
+  "dialogueBeats": 163,
+  "readingWordsPerMinute": 180,
+  "dialogueViewingMilliseconds": 848000,
+  "remainingMilliseconds": 248771,
+  "remainingTimeIncludes": [
+    "choice consideration and activation",
+    "browser/tool latency",
+    "commentary and visual inspection overhead"
+  ],
+  "choices": [
+    "C01_bluff",
+    "C02_file",
+    "C03_listen",
+    "C04_brindle",
+    "C05_brace",
+    "C06_help",
+    "C07_sunrise",
+    "C08_trust",
+    "C09_nell",
+    "C10_private"
+  ],
+  "ending": "E_PAPER",
+  "optionalHotspots": 0,
+  "failures": 0,
+  "retries": 0,
+  "replays": 0,
+  "limitations": [
+    "Timing includes automation overhead.",
+    "No human first-time playtest conducted.",
+    "End-card reading excluded."
+  ]
+}

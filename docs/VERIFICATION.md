@@ -29,6 +29,19 @@ Screenshots captured and inspected in the browser at 1280×720 and 1440×900: ti
 
 Original art was inspected before integration. No placeholder scene art is used. A distinct repaired/open bridge image replaces the raised bridge for the crossing and bridge endings. S00 uses uncloaked Pip. Failure captions/clues are rendered text rather than text baked into images.
 
-## Remaining release checks
+## Public release checks
 
-Public deployment, full signed-out-origin browser route, release commit correspondence, and timed agent-led pacing run are pending. A human first-time playtest has not been conducted. Do not describe automated or agent-led results as human feedback.
+- GitHub public repository: https://github.com/ericz23/fake-it-till-you-make-it. Standard authenticated Git push succeeded; remote main matched release source `f6a4e3af469b422ea7258068a02d0edd6550e7cf`. Public GitHub Actions validation passed: https://github.com/ericz23/fake-it-till-you-make-it/actions/runs/37182620790.
+- Public game: https://fake-it-till-you-make-it.kachow-1.chatgpt.site. Sites audience reports `public`, deployment succeeded, version 1. No paid plan was activated.
+- Credentialless HTTP requests returned the game and all 21 non-HTML production files. Every script, stylesheet and PNG matched its committed counterpart by SHA-256. The host adds a Cloudflare script to served HTML; the game entrypoint itself is the committed static file.
+- Fresh game origin initially offered New game with no existing save or account prompt. A complete keyboard-activated production route reached E_PAPER. This was the existing browser's fresh game origin, not an incognito profile; independent cookie-free/credential-free requests established public access.
+- Production ending reload -> title -> Continue restored the exact ending. Public map replay -> S09 -> F08 -> Retry restored the repaired crossing choice. Final boot tableau and ending teaser screenshots inspected at 1280×720. The final ending also passed 390×844 review: no horizontal overflow; its stacked controls remain reachable by ordinary vertical scrolling. No browser console errors or warnings on the completed public route.
+- Source/version/archive identifiers are in `release.json`. The final documentation-only follow-up changes README, STATUS and verification records; it does not change deployed game files.
+
+## Timed pacing evidence
+
+On 2026-10-04, the production browser run started at 06:29:49.945 UTC and reached the completed E_PAPER card at 06:48:06.727 UTC: **18 minutes 16.8 seconds** wall time. There were 163 dialogue beats / 2,544 dialogue words and ten choices. Path: bluff, maintenance file, listen, Brindle explanation, brace, helping, sunrise, trust Nell, walk with Nell, private disclosure.
+
+Method: paced agent review through ordinary rendered controls. Dialogue viewing dwell was explicitly calculated at 180 words/minute (14m 08s total); the remaining 4m 08.8s includes choices, UI/tool latency, a screenshot and commentary/inspection overhead. No optional hotspots, failures, retries, reloads, or map jumps were included in this timed route. The stopwatch stopped when the end card appeared; reading that card is extra. No forced delays were added to the game. Raw aggregate evidence is in `pacing.json`.
+
+This supports the 15–20-minute target as an **agent-led estimate**, not measured human reading speed or proof of fun. Faster readers can finish earlier; failures and exploration can extend it. A human first-time playtest remains unperformed. Safari/Firefox and deliberate network-fault injection were not browser-tested; denied storage and corrupt saves were tested at the storage/engine level. All production assets were independently retrieved successfully.

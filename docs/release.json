@@ -1,0 +1,16 @@
+{
+  "gameUrl": "https://fake-it-till-you-make-it.kachow-1.chatgpt.site",
+  "repositoryUrl": "https://github.com/ericz23/fake-it-till-you-make-it",
+  "sourceCommit": "f6a4e3af469b422ea7258068a02d0edd6550e7cf",
+  "projectId": "appgprj_6ac1e9a852d48191b0b646ded57b03cb",
+  "versionId": "appgprj_6ac1e9a852d48191b0b646ded57b03cb~appgver_0529c99431008191851cb99b54350115",
+  "version": 1,
+  "deploymentId": "appgdep_6ac1f10747188191b4e0b14efb3d412a",
+  "deploymentStatus": "succeeded",
+  "audience": "public",
+  "archiveSha256": "ec1db2a0ec340f2a67d9da8de14c3b07b787fa27a333e13ae912d4c4984dbf0e",
+  "credentiallessFilesVerified": 21,
+  "allNonHtmlFilesMatch": true,
+  "htmlNote": "Hosting injects a Cloudflare script into the served entrypoint.",
+  "followUp": "Documentation-only metadata follow-up; dist remains identical to sourceCommit."
+}
