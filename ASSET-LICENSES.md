@@ -8,7 +8,7 @@ All game illustrations in `dist/assets/*.png` were newly generated for this proj
 | `pip.png`, `pip-uncloaked.png`, `nell.png`, `brindle.png`, `quill.png` | Same tool, canonical character reference | Original generated outputs | Original alpha retained; nonuniform pose windows selected in CSS |
 | `town.png`, `office.png`, `bridge.png`, `mechanism.png`, `gate.png`, `alcove.png` | Same tool, original environment briefs | Original generated outputs | CSS camera crop; town dusk uses a color treatment |
 | `bridge-open.png` | Same tool, edit of generated bridge | Original generated output | Repaired deck lowered and dusk lighting generated |
-| `failures.png` | Same tool, generated character references | Original generated output | Transparent tableau windows and CSS motion; captions rendered separately |
+| `failures.png`, `boot.png` | Same tool, generated character references | Original generated output | Transparent tableau windows and CSS motion; captions rendered separately |
 | `dist/game/audio.js` | Original procedural composition and synthesis authored for this game | Project licensing undecided | Web Audio oscillators; no samples or recordings |
 | Embedded favicon | Original simple interface emblem | Project licensing undecided | Inline SVG |
 | Typography | Browser/system Georgia and system-ui font stacks | No font files redistributed | None |

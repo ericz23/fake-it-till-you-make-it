@@ -72,6 +72,11 @@
       "path": "dist/assets/failures.png",
       "prompt": "Use case: background-extraction. Asset type: final transparent eight-frame comic game sprite sheet. EDIT provided sheet. Preserve all EIGHT illustrated Pip comic tableaux, exact character identity, poses, props and ordering in 4 columns by 2 rows. Make a clean TRUE TRANSPARENT background with alpha=0, no hazy colored glow, no paper, no brown/cream/gray background, no checkerboard. Reduce each complete tableau slightly within its own equal cell to leave 8 percent cell width clear transparent margin on every side and generous horizontal/vertical transparent gutters between all 8 cells. In particular top-left banner hook and stone mounting must fit entirely inside image and cell, nothing cut off at canvas edges. Retain isolated water drops and flying blank papers belonging to their cell. Full sheet wide landscape 3072x2048 if possible. No new objects or text. Each tableau unchanged except slightly reduced scale for clear padding; alpha channel genuinely transparent in all empty spaces.",
       "reference": "dist/assets/character-reference.png"
+    },
+    {
+      "path": "dist/assets/boot.png",
+      "prompt": "Use case: illustration-story. Asset type: one isolated game animation prop on TRUE TRANSPARENT RGBA background. Use the supplied reference only to match Pip Finch's exact brown leather lace-up boot: rounded toe, thick dark sole, rolled padded cuff, worn warm brown leather, dark eyelets and laces, softened dark ink outlines and warm detailed gouache/paper-grain texture inside the object. Draw just ONE loose empty Pip boot, full boot visible, horizontal/diagonal with toe pointing to the left and slightly up, as if gently popped from a parade dragon's mouth. Clear side/three-quarter profile so it reads immediately at small scale. No leg, no foot, no character, no pair, no motion lines, no dragon, no extra objects, no text, no cast shadow. Empty boot opening visible at right upper end. Center on square canvas with generous transparent padding. All outside pixels genuinely alpha=0; no colored background, no haze, no paper backdrop, no checkerboard. Same original storybook cartoon as reference. 1024x1024.",
+      "reference": "dist/assets/pip.png"
     }
   ]
 }

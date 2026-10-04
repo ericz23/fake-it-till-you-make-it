@@ -25,7 +25,7 @@ Explicit restart confirmation; independent erase-all control. Version story cont
 ## Milestones
 
 ### 0. Access and setup
-Read applicable instructions. Verify local tools and hosting capabilities. Read installed GitHub plugin workflow and identify authenticated user and repository permissions. Initialize a dedicated local Git repository. Create public `substitute-hero` under the user's account if available, otherwise resolve collision without overwriting. Push a first meaningful scaffold/doc checkpoint once access works. If connector cannot create or push, use its supported CLI path; sign-in is a user step if needed.
+Read applicable instructions. Verify local tools and hosting capabilities. Read installed GitHub plugin workflow and identify authenticated user and repository permissions. Initialize a dedicated local Git repository. Create public `fake-it-till-you-make-it` under the user's account if available, otherwise resolve collision without overwriting. Push a first meaningful scaffold/doc checkpoint once access works. If connector cannot create or push, use its supported CLI path; sign-in is a user step if needed.
 
 Read current Sites building and hosting instructions before provisioning. Verify public signed-out access is supported before committing to that host. Sites is the proposed default, not permission to silently deliver a private-only URL. If public hosting is unavailable, report it and propose an available free static host; do not enable a paid service. Keep other implementation moving.
 

@@ -27,3 +27,11 @@ All acceptance criteria remain unverified until implemented and tested. In parti
 - All required generated art received and inspected; nonuniform sprite crops being integrated. Added uncloaked Pip for S00 continuity and an open bridge dusk variant so the repaired crossing visibly changes.
 - Sites audience verified `public`; owner returned as Eric Zhu. No published URL claimed yet.
 - Git credential helper authenticated as `ericz23`; GitHub REST created public `ericz23/fake-it-till-you-make-it` and returned admin/push permission. The connector itself returned 403 on the new repository's collaborator-permission endpoint, so it is not being treated as write proof. Standard Git push will establish write access.
+
+## Checkpoint — browser verification
+- Public GitHub push succeeded to `https://github.com/ericz23/fake-it-till-you-make-it` (initial integrated checkpoint `2782102`). This establishes actual write access; no further browser sign-in was needed.
+- All three endings and all eight failure/retry pairs reached through ordinary browser controls. Map replay from S02 verified no-file ending after prior file/public-truth endings.
+- Reload verified at dialogue, choice, failure and ending. Settings, credits, restart cancellation/confirmation, discovery retention, keyboard focus, Enter/Space reveal semantics and reduced motion checked.
+- Screenshots inspected at 1280×720, 1440×900 and 390×844. Fixed gate-clue face occlusion and mobile troll clipping; no horizontal scroll on the small viewport. Full detail in docs/VERIFICATION.md.
+- CI validation workflow added; execution awaits final push.
+- Remaining: final F08 boot arc integration; publish; fresh production-origin complete paced route and source correspondence; release documentation.
