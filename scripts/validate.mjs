@@ -1,0 +1,5 @@
+import {readFile,access,readdir} from 'node:fs/promises';import {execFileSync} from 'node:child_process';import {scenes,failures} from '../dist/game/episode.js';
+for(const file of await readdir('dist/game'))if(file.endsWith('.js'))execFileSync(process.execPath,['--check','dist/game/'+file]);
+const assets=new Set(['town','pip','nell','brindle','quill','failures','bridge-open','character-reference']);for(const s of Object.values(scenes))assets.add(s.bg);for(const name of assets)await access(`dist/assets/${name}.png`);
+const html=await readFile('dist/index.html','utf8');if(!html.includes('Fake It Till You Make It')||!html.includes('game/ui.js'))throw Error('Invalid entrypoint');const manifest=JSON.parse(await readFile('.openai/hosting.json','utf8'));if(manifest.static.directory!=='dist')throw Error('Invalid static destination');
+console.log(`Production validation passed: ${Object.keys(scenes).length} scenes, ${Object.keys(failures).length} failures, ${assets.size} required illustrations, valid ES modules and static entrypoint.`);
